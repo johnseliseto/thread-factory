@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 const grid = [];
 let countdown = 3;
 ctx.font = "24px 'Comic Sans MS'";
-const backgroundMusic = new Audio("../audio/game-music-loop-2-144037.mp3");
+const backgroundMusic = new Audio("./audio/game-music-loop-2-144037.mp3");
 
 backgroundMusic.loop = true; // The music will play in a loop
 backgroundMusic.volume = 0.5; // Set the volume to 50%
@@ -20,10 +20,10 @@ const images = {
   yellow: new Image()
 };
 
-images.red.src = "../images/Rojo.png";
-images.blue.src = "../images/Azul.png";
-images.green.src = "../images/Verde.png";
-images.yellow.src = "../images/Amarillo.png";
+images.red.src = "./images/Rojo.png";
+images.blue.src = "./images/Azul.png";
+images.green.src = "./images/Verde.png";
+images.yellow.src = "./images/Amarillo.png";
 
 let speed = 0.05; // speed of the square
 let horizontalSpeed = 0;
