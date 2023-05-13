@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/TBackground.png");
+    background-size: cover;
+  }
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-top: 200px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+/* #creator1 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    color: white;
+} */
+
+/* #creator2 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    color: white;
+} */
+
+#buttoms {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#buttoms button {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px; /* Adjust the size to your preference */
+  }
+
+#creators {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#creator1 {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#creator2 {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+    color: white;
+}
+
+  /* Remove underline and change color for visited and unvisited links */
+  #creator2 h3 a {
+    text-decoration: none;
+    color: white
+  }
+  
+  /* Add underline and change color on hover */
+  #creator2 h3 a:hover {
+    text-decoration: none;
+    color: green;
+  }
+  

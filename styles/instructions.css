@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/TBackground.png");
+    background-size: cover;
+  }
+
+#instructions {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;  
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#rules {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;  
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#rules p {
+    font-size: 17px;
+    flex-basis: calc(30%);
+    padding: 10px;
+}
+
+#buttoms {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#buttoms button {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px; /* Adjust the size to your preference */
+  }

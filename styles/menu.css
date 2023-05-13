@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+    background-image: url("../images/TBackground.png");
+    background-size: cover;
+  }
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#buttoms {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#buttoms button {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px; /* Adjust the size to your preference */
+  }
