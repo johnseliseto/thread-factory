@@ -28,6 +28,7 @@ body {
     align-items: center;
     color: white;
     font-family: 'Press Start 2P', sans-serif;
+    line-height: 2;
 }
 
 #rules p {
